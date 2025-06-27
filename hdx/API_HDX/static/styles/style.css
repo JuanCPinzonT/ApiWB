@@ -1,0 +1,155 @@
+body {
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.form-contenedor {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  animation: fadeInSlide 0.8s ease-out;
+}
+
+.form-campo {
+  margin-bottom: 1.2rem;
+}
+
+.form-campo label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.form-campo input,
+.form-campo select,
+.form-campo textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+}
+
+button, .btn-primary {
+  background-color: #198754;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.success {
+  color: #198754;
+  background-color: #d1e7dd;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.error {
+  color: #dc3545;
+  background-color: #f8d7da;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+select[name='cmbPais'] {
+  margin-bottom: 2rem;
+  padding: 0.6rem;
+  border-radius: 6px;
+}
+
+/* Animación */
+@keyframes fadeInSlide {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.table {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.table th {
+  background-color: #0d6efd;
+  color: white;
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btn-back a {
+  background-color: #0d6efd;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-back a:hover {
+  background-color: #084298;
+}
+/* Estilo para títulos principales */
+h1, h2, h6 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Estilo para títulos principales */
+h1, h2, h6 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0d6efd;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #0d6efd;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #343a40;
+}
+
+h6 {
+  font-size: 0.9rem;
+  color: #6c757d;
+  font-style: italic;
+  margin-top: -0.5rem;
+}
